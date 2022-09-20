@@ -13,7 +13,7 @@
 <h2>💻 Projeto</h2>
 
 O objetivo desse repositório é documentar e organizar minha jornada de aprendizado durante o curso 
-de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 💙🖖.
+de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
 
 
 <br>
@@ -30,7 +30,15 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 💙🖖.
     <li>Aula 1 - O que o JavaScript é capaz de fazer?</li>
     <li>Aula 2 - Como chegamos até aqui?</li>
     <li>Aula 3 - Dando os primeiros passos.</li>
-    <li>Aula 4 - Criando o seu primeiro script</li>
+    <li><a href="./moduloA/aula04">Aula 4 - Criando o seu primeiro script</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>✅ [Módulo B] Comandos Básicos do JavaScript</summary>
+  <ul>
+    <li>Aula 5 - Variáveis e Tipos Primitivos</li>
+    <li>Aula 6 - Tratamento de dados</li>
   </ul>
 </details>
 

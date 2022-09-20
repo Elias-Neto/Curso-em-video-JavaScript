@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tratamento de Dados</title>
+
+    <style>
+      body {
+        background-color: rgb(100, 115, 158);
+
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      alert('P R A C T I C E [01]')
+      let toSay = window.prompt('Do you want to say?') // O PROMPT() RETORNA UMA STRING!
+      window.alert('You want to say: ' + toSay)
+
+      /* 
+        Conhecimento Adquirido
+
+        * Capturar dados por meio de um window.prompt();
+        * Concatenação;
+      */
+
+      alert('P R A C T I C E [02]')
+      let firstNumber = Number(window.prompt('Enter a number: '))
+      let secondNumber = Number(window.prompt('Enter another number: '))
+      let sum = firstNumber + secondNumber
+      window.alert(`${firstNumber.toString()} + ${secondNumber.toString()} = ${sum.toString()}`)
+
+      /* 
+        Conhecimento Adquirido
+
+        * Conersão de tipos de dados;
+        * Utilização do operador "+" (Concatenação e Adição);
+        * Template Strings e suas vantagesns;
+      */
+
+      alert('P R A C T I C E [03]')
+      let name = window.prompt('What is your name?')
+      document.write(`Hello <strong>${name}</strong>! Your name have ${name.length} letters. </br>`)
+      document.write(`Your name in lowercase: ${name.toLowerCase()} </br>`)
+      document.write(`Your name in uppercase: ${name.toUpperCase()}`)
+
+      /* 
+        Conhecimento Adquirido
+
+        * Descobrir o tamanho de uma string (quantos caracteres ela possui) por meio do seu atributo .length;
+        * Colocar uma string em caixa alta por meio do método .toUpperCase();
+        * Colocar uma string em caixa baixa por meio do método .toLowerCase();
+        * Escrever coisas na página por meio do método document.write();
+      */
+    </script>
+  </body>
+</html>

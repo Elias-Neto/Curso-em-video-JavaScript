@@ -1,9 +1,9 @@
 <h1 align="center">Primeiro Script 1️⃣</h1>
 
-![Demonstração](./demonstracao.gif)
+![Vìdeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
 <div align="center">
-    <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloA/aula04/primeiroScript.html" target="_blank"> Veja o Site</a>
+    <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloA/aula04/index.html" target="_blank"> Veja o Site</a>
 </div>
 
 <br>
@@ -16,9 +16,9 @@ Um script simples apenas para marcar meu primeiro contato com a JavaScript na We
 
 ## 📥 Conhecimento Adquirido 
 
-- Comando window.alert();
-- Comando window.confirm();
-- Comando window.prompt();
+- Método window.alert();
+- Método window.confirm();
+- Método window.prompt();
 
 <br>
 
@@ -31,3 +31,7 @@ Um script simples apenas para marcar meu primeiro contato com a JavaScript na We
 <br>
 
 <p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
+
+<br>
+  
+<a href="../../README.md">Voltar</a>
