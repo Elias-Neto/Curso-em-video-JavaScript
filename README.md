@@ -47,7 +47,8 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
 <details>
   <summary>✅ [Módulo C] Entendendo o DOM</summary>
   <ul>
-    <li><a href="./moduloC/aula09">Aula 9 - Introdução a DOM</a></li>
+    <li><a href="./moduloC/aula09">Aula 9 - Introdução ao DOM</a></li>
+    <li><a href="./moduloC/aula10">Aula 10 - Eventos DOM</a></li>
   </ul>
 </details>
 

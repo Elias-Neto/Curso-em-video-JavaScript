@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introdução ao DOM</title>
+
+    <style>
+      body {
+        background-color: rgb(36, 36, 36);
+
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+      }
+
+      div.wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        gap: 50px;
+      }
+
+      div.divFormat {
+        width: 200px;
+        height: 200px;
+        background-color: gold;
+        border-radius: 50%;
+
+        line-height: 200px;
+        text-align: center;
+
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div
+        class="divFormat firstDiv"
+        onclick="clicked()"
+        onmouseenter="entered()"
+        onmouseout="exited()"
+      >
+        Interact...
+      </div>
+  
+      <div class="divFormat secondDiv">
+        Interact...
+      </div>
+    </div>
+
+    <script>
+      let firstDiv = window.document.querySelector('div.firstDiv')
+
+      function clicked() {
+        firstDiv.innerText = 'Clicked!'
+        firstDiv.style.background = 'crimson'
+        firstDiv.style.color = 'white'
+      }
+
+      function entered() {
+        firstDiv.innerText = 'Entered!'
+      }
+
+      function exited() {
+        firstDiv.innerText = 'Exited!'
+        firstDiv.style.background = 'gold'
+        firstDiv.style.color = 'black'
+      }
+
+      let secondDiv = window.document.querySelector('div.secondDiv')
+      secondDiv.addEventListener('click', clickedTwo)
+      secondDiv.addEventListener('mouseenter', enteredTwo)
+      secondDiv.addEventListener('mouseout', exitedTwo)
+
+      function clickedTwo() {
+        secondDiv.innerText = 'Clicked!'
+        secondDiv.style.background = 'crimson'
+        secondDiv.style.color = 'white'
+      }
+
+      function enteredTwo() {
+        secondDiv.innerText = 'Entered!'
+      }
+
+      function exitedTwo() {
+        secondDiv.innerText = 'Exited!'
+        secondDiv.style.background = 'gold'
+        secondDiv.style.color = 'black'
+      }
+    </script>
+  </body>
+</html>

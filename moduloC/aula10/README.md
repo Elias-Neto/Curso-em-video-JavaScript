@@ -1,14 +1,17 @@
-<h1 align="center">Introdução ao DOM 🖇</h1>
+<h1 align="center">Eventos DOM 🖇</h1>
 
 ![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloC/aula09/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloC/aula10/index.html">Veja o Site</a>
 </div>
 
 ## 💻 Projeto
 
-Programa que pergunta ao usuário qual cor ele deseja para o fundo da página, para as letras e permite o usuário escrever um título e um parágrafo.
+Nesse programa o intuito é treinar os Eventos DOM. Ao colocar o cursor do mouse dentro do círculo, dispara-se um evento, 
+ao tira-lo de dentro, dispara-se outro evento, ao clicar no círculo, dispara-se mais um evento.
+
+No círculo da esquerda eu coloquei os disparos de evento no próprio html. Já no da direita, eu adicionei event listener's para dispararem os eventos.
 
 <br>
 
