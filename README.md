@@ -37,8 +37,8 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
 <details>
   <summary>✅ [Módulo B] Comandos Básicos do JavaScript</summary>
   <ul>
-    <li>Aula 5 - Variáveis e Tipos Primitivos</li>
-    <li>Aula 6 - Tratamento de dados</li>
+    <li><a href="./moduloB/aula05">Aula 5 - Variáveis e Tipos Primitivos</a></li>
+    <li><a href="./moduloB/aula06">Aula 6 - Tratamento de dados</a></li>
   </ul>
 </details>
 

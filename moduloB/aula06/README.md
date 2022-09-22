@@ -14,7 +14,7 @@
 ## 📥 Conhecimento Adquirido 
 
 - Capturar dados por meio de comando de input window.prompt();
-- Concatenação;
+- Concatenação de valores;
 - Conersão de tipos de dados;
 - Utilização do operador "+" (Concatenação e Adição);
 - Template Strings e suas vantagesns ([Artigo Complementar](https://medium.com/tableless/template-strings-c22bd21917f3#:~:text=Conceitualmente%20interpolar%20%C3%A9%20diferente%20de,ent%C3%A3o%20chamamos%20isso%20de%20interpola%C3%A7%C3%A3o.));
