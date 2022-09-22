@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operadores (Parte 2)</title>
+</head>
+<body>
+  <script>
+    window.alert('OPERADORES RELACIONAIS')
+    let n1 = Number(prompt('Digite um número: '))
+    let n2 = Number(prompt('Digite outro número: '))
+    alert(`
+      ${n1} > ${n2} : ${n1 > n2}
+      ${n1} >= ${n2} : ${n1 >= n2}
+      ${n1} < ${n2} : ${n1 < n2}
+      ${n1} <= ${n2} : ${n1 <= n2}
+      ${n1} == ${n2} : ${n1 == n2}
+      ${n1} === ${n2} : ${n1 === n2}
+      ${n1} != ${n2} : ${n1 != n2}
+    `)
+
+    window.alert('OPERADORES LÓGICOS')
+    n1 = Number(prompt('Digite um número: '))
+    n2 = Number(prompt('Digite outro número: '))
+    alert(`
+      (${n1} > ${n2}) e (${n1} < 10) : ${(n1 > n2) && (n1 < 10)}
+      (${n2} <= ${n1}) ou (${n2} < 5) : ${(n2 <= n1) && (n2 < 5)}
+      não(${n1} > ${n2}) : ${!(n1 > n2)}
+    `)
+
+    window.alert('OPERADOR TERNÁRIO')
+    let idade = prompt('Digite sua idade: ')
+    alert(idade >= 18? 'Você tem 18 anos ou mais' : 'Você não tem 18 anos ou mais')
+  </script>
+</body>
+</html>

@@ -39,6 +39,8 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
   <ul>
     <li><a href="./moduloB/aula05">Aula 5 - Variáveis e Tipos Primitivos</a></li>
     <li><a href="./moduloB/aula06">Aula 6 - Tratamento de dados</a></li>
+    <li><a href="./moduloB/aula07">Aula 7 - Operadores (Parte 1)</a></li>
+    <li><a href="./moduloB/aula08">Aula 8 - Operadores (Parte 2)</a></li>
   </ul>
 </details>
 
