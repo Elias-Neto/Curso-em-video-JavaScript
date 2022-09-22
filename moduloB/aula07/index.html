@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operadores (Parte 1)</title>
+  </head>
+  <body>
+    <script>
+      window.alert('OPERADORES ARITMÉTICOS')
+      let firstNumber = Number(window.prompt('Digite um número: '))
+      let secondNumber = Number(window.prompt('Digite outro número: '))
+      window.alert(`
+        ${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}
+        ${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}
+        ${firstNumber} x ${secondNumber} = ${firstNumber * secondNumber}
+        ${firstNumber} / ${secondNumber} = ${(firstNumber / secondNumber).toFixed(2)}
+        ${firstNumber} % ${secondNumber} = ${firstNumber % secondNumber}
+        ${firstNumber} ** ${secondNumber} = ${firstNumber ** secondNumber}
+      `)
+    </script>
+  </body>
+</html>

@@ -8,6 +8,7 @@
 
 ## 💻 Projeto
 
+Exercícios para praticar o tratamento de dados.
 
 <br>
 

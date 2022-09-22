@@ -3,22 +3,23 @@
 ![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula05/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula07/index.html">Veja o Site</a>
 </div>
 
 ## 💻 Projeto
 
-Sistema simples, com o intuito de fazer matrículas, coleta alguns dados do usuário e exiba na tela.
+Programa simples que ler 2 números e faz algumas operações aritméticas com eles.
 
 <br>
 
 ## 📥 Conhecimento Adquirido 
 
-- Variáveis;
-- Declaração de variáveis;
-- Atribuição de valor em variáveis;
-- Capturar dados por meio de comando de input window.prompt();
-- Concatenação de valores;
+- Operadores Aritméticos;
+- Formatar números reais por meio do método .toFixed();
+- Ordem de precedência;
+- Operador de atribuição simples;
+- Operadores de auto-atribuição;
+- Operadores de incremento e decremento;
 
 <br>
 
