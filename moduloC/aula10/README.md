@@ -1,4 +1,4 @@
-<h1 align="center">Eventos DOM 🖇</h1>
+<h1 align="center">Eventos DOM 🖱</h1>
 
 ![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
