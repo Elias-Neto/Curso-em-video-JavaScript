@@ -1,22 +1,22 @@
-<h1 align="center">Tratamento de Dados 🔢</h1>
+<h1 align="center">Tratamento de Dados 🎲</h1>
 
 ![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula08/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloC/aula09/index.html">Veja o Site</a>
 </div>
 
 ## 💻 Projeto
 
-Programinhas para praticar operações relacionais, lógicas e ternária.
+Programa que pergunta ao usuário qual cor ele deseja para o fundo da página, para as letras e permite o usuário escrever um título e um parágrafo.
 
 <br>
 
 ## 📥 Conhecimento Adquirido 
 
-- Operadores Relacionais;
-- Operadores Lógicos;
-- Operador Ternário.
+- Entendendo o DOM e a Árvore DOM;
+- Selecionar elementos da Árvore DOM;
+- Manipulação de elementos utilizando o DOM.
 
 <br>
 

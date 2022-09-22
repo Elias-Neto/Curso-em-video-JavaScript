@@ -1,4 +1,4 @@
-<h1 align="center">Tratamento de Dados 🎲</h1>
+<h1 align="center">Operadores (Parte 1) 🔢</h1>
 
 ![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
 

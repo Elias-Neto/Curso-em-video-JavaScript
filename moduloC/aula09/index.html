@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introdução ao DOM</title>
+
+    <style>
+      body {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>A</h1>
+    <p>A</p>
+
+    <script>
+      let bgColorBody = prompt('Qual cor você quer de fundo [gray, crimson, gold]?')
+      window.document.body.style.background = bgColorBody
+
+      let colorBody = prompt('Qual cor das letras você quer [white, black, orange]?')
+      window.document.body.style.color = colorBody
+
+      let h1Text = prompt('Digite um título: ')
+      let h1 = window.document.getElementsByTagName('h1')[0]
+      h1.innerText = h1Text
+
+      let pText = prompt('Digite um parágrafo: ')
+      let p = window.document.getElementsByTagName('p')[0] 
+      p.innerText = pText
+    </script>
+  </body>
+</html>
