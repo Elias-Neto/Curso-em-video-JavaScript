@@ -45,7 +45,7 @@
       gap: 20px;
     }
 
-    section div.notas{
+    section div.notas {
       display: flex;
       gap: 50px;
     }
@@ -59,7 +59,8 @@
       text-align: center;
     }
 
-    input#n1, input#n2 {
+    input#n1,
+    input#n2 {
       padding: 5px;
       width: 80px;
     }
@@ -95,17 +96,22 @@
         <div class="notas">
           <div>
             <label for="n1">NOTA 1</label>
-            <input type="number" id="n1">
+            <input type="number" id="n1" />
           </div>
-         
+
           <div>
             <label for="n2">NOTA 2</label>
-            <input type="number" id="n2">
+            <input type="number" id="n2" />
           </div>
         </div>
 
         <div class="finalizar">
-          <input type="submit" value="Finalizar" id="button" onclick="status()">
+          <input
+            type="submit"
+            value="Finalizar"
+            id="button"
+            onclick="status()"
+          />
         </div>
 
         <div id="messageOutput"></div>
@@ -125,11 +131,11 @@
       let nota2 = document.getElementById('n2')
       let messageOutput = document.getElementById('messageOutput')
       let media
-      
+
       function status() {
         let n1 = Number(nota1.value)
         let n2 = Number(nota2.value)
-        media = (n1+n2)/2
+        media = (n1 + n2) / 2
         messageOutput.innerHTML = `<p>Sua média foi ${media.toFixed(1)}</p>`
         if (media >= 7) {
           messageOutput.innerHTML += `<br><p>Você foi <strong>APROVADO(A)</strong>! 😁</p>`
