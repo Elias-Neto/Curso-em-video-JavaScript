@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de Multa</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(36, 36, 36);
+
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    section {
+      background-color: white;
+      width: 300px;
+      height: 300px;
+      border-radius: 10px;
+
+      color: black;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    a {
+      color: white;
+    }
+
+    input#velocity {
+      padding: 10px;
+      width: 100px;
+    }
+
+    input#button {
+      padding: 5px;
+      background-color: crimson;
+      color: white;
+      cursor: pointer;
+      border: 1px solid black;
+      border-radius: 3px;
+    }
+
+    input#button:hover {
+      background-color: rgb(206, 20, 57);
+    }
+
+    div#messageOutput {
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Verificador de Multa</h1>
+        <p>🛑 Limite de Velocidade: 50km/h </p>
+      </header>
+
+      <section>
+        <label for="velocity">🚗 Velocidade do Carro (km/h):</label>
+        <input type="number" id="velocity">
+        <input type="submit" value="Verificar" id="button" onclick="verify()">
+
+        <div id="messageOutput">
+
+        </div>
+      </section>
+
+      <footer>
+        Developed with 💙 by
+        <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank"
+          >Elias Neto</a
+        >
+        👋
+      </footer>
+    </div>
+
+    <script>
+      let velocity = document.getElementById('velocity')
+      let messageOutput = document.getElementById('messageOutput')
+      let multa
+
+      function verify() {
+        let v = Number(velocity.value)
+        multa = (v - 50) * 2
+        messageOutput.innerHTML = ''
+        if (multa > 0) {
+          messageOutput.innerHTML = `<p>Você foi <strong>MULTADO(A)</strong>!</p>`
+          messageOutput.innerHTML += `<p>Valor da multa: R$ ${multa}</p>`
+        } else {
+          messageOutput.innerHTML = `<p>Você não foi multado(a)!`
+        }
+        velocity.focus()
+      }
+    </script>
+  </body>
+</html>

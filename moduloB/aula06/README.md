@@ -6,6 +6,8 @@
   <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula06/index.html">Veja o Site</a>
 </div>
 
+<br>
+
 ## 💻 Projeto
 
 Exercícios para praticar o tratamento de dados.

@@ -6,6 +6,8 @@
   <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula07/index.html">Veja o Site</a>
 </div>
 
+<br>
+
 ## 💻 Projeto
 
 Programa simples que ler 2 números e faz algumas operações aritméticas com eles.

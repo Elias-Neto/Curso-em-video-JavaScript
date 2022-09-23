@@ -1,26 +1,24 @@
-<h1 align="center">Variáveis e Tipos Primitivos 🗄</h1>
+<h1 align="center">Condições (Parte 1) 🔀</h1>
 
 ![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula05/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloC/aula11/index.html">Veja o Site</a>
 </div>
 
 <br>
 
 ## 💻 Projeto
 
-Sistema simples, com o intuito de fazer matrículas, coleta alguns dados do usuário e exiba na tela.
+Esse é um aplicativo que ler a velocidade de um carro e verifica: se ultrapasou a velocidade limite, informa ao usuário que
+ele foi multado, calcula e mostra o valor da multa; se não, informa ao usuário que ele não foi multado.
 
 <br>
 
 ## 📥 Conhecimento Adquirido 
 
-- Variáveis;
-- Declaração de variáveis;
-- Atribuição de valor em variáveis;
-- Capturar dados por meio de comando de input window.prompt();
-- Concatenação de valores;
+- Estrtura Condicional Simples;
+- Estrutura Condicional Composta;
 
 <br>
 
