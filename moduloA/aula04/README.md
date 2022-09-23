@@ -16,9 +16,9 @@ Um script simples apenas para marcar meu primeiro contato com a JavaScript na We
 
 ## 📥 Conhecimento Adquirido 
 
-- Método window.alert();
-- Método window.confirm();
-- Método window.prompt();
+- Método `window.alert()`;
+- Método `window.confirm()`;
+- Método `window.prompt()`;
 
 <br>
 

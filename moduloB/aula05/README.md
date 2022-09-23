@@ -19,7 +19,7 @@ Sistema simples, com o intuito de fazer matrículas, coleta alguns dados do usu�
 - Variáveis;
 - Declaração de variáveis;
 - Atribuição de valor em variáveis;
-- Capturar dados por meio de comando de input window.prompt();
+- Capturar dados por meio de comando de input `window.prompt()`;
 - Concatenação de valores;
 
 <br>

@@ -17,7 +17,7 @@ Programa simples que ler 2 números e faz algumas operações aritméticas com e
 ## 📥 Conhecimento Adquirido 
 
 - Operadores Aritméticos;
-- Formatar números reais por meio do método .toFixed();
+- Formatação das casas decimais de um número real utilizando o método `.toFixed()`
 - Ordem de precedência;
 - Operador de atribuição simples;
 - Operadores de auto-atribuição;
