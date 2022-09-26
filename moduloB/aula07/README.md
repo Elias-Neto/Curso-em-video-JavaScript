@@ -1,6 +1,8 @@
-<h1 align="center">Operadores (Parte 1) 🔢</h1>
+<h1 align="center">Aula 07 - Operadores (Parte 1) 🔢</h1>
 
-![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
+<div align="center">
+  <img src="./demonstracao.gif">
+</div>
 
 <div align="center">
   <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula07/index.html">Veja o Site</a>

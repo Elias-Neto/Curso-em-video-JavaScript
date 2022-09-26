@@ -55,8 +55,8 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
 <details>
   <summary>✅ [Módulo D] Condições em JavaScript</summary>
   <ul>
-    <li><a href="./moduloC/aula11">Aula 11 - Condições (Parte 1)</a></li>
-    <li><a href="./moduloC/aula12">Aula 11 - Condições (Parte 2)</a></li>
+    <li><a href="./moduloD/aula11">Aula 11 - Condições (Parte 1)</a></li>
+    <li><a href="./moduloD/aula12">Aula 12 - Condições (Parte 2)</a></li>
   </ul>
 </details>
 

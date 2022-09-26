@@ -1,6 +1,8 @@
-<h1 align="center">Variáveis e Tipos Primitivos 🗄</h1>
+<h1 align="center">Aula 05 - Variáveis e Tipos Primitivos 🗄</h1>
 
-![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
+<div align="center">
+  <img src="./demonstracao.gif">
+</div>
 
 <div align="center">
   <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula05/index.html">Veja o Site</a>

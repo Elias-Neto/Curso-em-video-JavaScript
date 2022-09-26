@@ -1,4 +1,4 @@
-<h1 align="center">Primeiro Script 1️⃣</h1>
+<h1 align="center">Aula 04 - Primeiro Script 1️⃣</h1>
 
 ![Vìdeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
