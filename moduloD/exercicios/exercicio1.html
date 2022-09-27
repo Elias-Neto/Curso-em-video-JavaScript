@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time of Day</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --body-bg-normal: hsl(0, 0%, 14%);
+      --body-bg-night: hsl(228, 60%, 30%);
+      --body-bg-afternoon: hsl(34, 64%, 55%);
+      --body-bg-morning: hsl(58, 63%, 75%);
+      --body-color-white: white;
+      --body-color-black: black;
+    }
+
+    body {
+      background-color: var(--body-bg-normal);
+
+      color: var(--body-color);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+    }
+
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    section {
+      background-color: white;
+      padding: 60px;
+      border-radius: 10px;
+
+      color: black;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    a {
+      color: var(--body-color);
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>🕙 Time of Day</h1>
+      </header>
+      <section>
+        <p id="hour">Now it's 10h</p>
+        <img id="image" src="./imgs/morning.jpg" alt="picture of time of day">
+        <p id="saudation">&#9925 Good morning</p>
+      </section>
+      <footer>Developed with 💙 by <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank">Elias Neto</a> 👋</footer>
+    </div>
+
+    <script>
+      let hour = document.getElementById('hour')
+      let image = document.getElementById('image')
+      let saudation = document.getElementById('saudation')
+
+      let now = new Date()
+      let hourNow = now.getHours()
+      hourNow = 16
+
+      hour.innerHTML = `Now it's <strong>${hourNow}h</strong>`
+
+      if (hourNow >= 0 && hourNow < 12) {
+        saudation.innerHTML = `&#9925 Good Morning!`
+        image.src = './imgs/morning.jpg'
+        document.body.style.background = 'var(--body-bg-morning)'
+        document.body.style.color = 'var(--body-color-black)'
+      } else if (hourNow >= 12 && hourNow <= 18) {  
+        saudation.innerHTML = `&#127774 Good Afternoon!`
+        image.src = './imgs/afternoon.jpg'
+        document.body.style.background = 'var(--body-bg-afternoon)'
+        document.body.style.color = 'var(--body-color-black)'
+      } else {
+        saudation.innerHTML = `&#127773 Good Night!`
+        image.src = './imgs/night.jpg'
+        document.body.style.background = 'var(--body-bg-night)'
+        document.body.style.color = 'var(--body-color-white)'
+      }
+    </script>
+  </body>
+</html>
