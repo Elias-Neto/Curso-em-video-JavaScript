@@ -57,6 +57,7 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
   <ul>
     <li><a href="./moduloD/aula11">Aula 11 - Condições (Parte 1)</a></li>
     <li><a href="./moduloD/aula12">Aula 12 - Condições (Parte 2)</a></li>
+    <li><a href="./moduloD/exercicios">Exercícios 🏋️</a></li>
   </ul>
 </details>
 

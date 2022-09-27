@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Verificator</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(36, 36, 36);
+
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+    }
+
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    section {
+      background-color: white;
+      padding: 50px;
+      border-radius: 10px;
+
+      color: black;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .inputDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    input#birthYear {
+      width: 100px;
+      padding: 3px;
+    }
+
+    input#verify {
+      background-color: gold;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+
+      text-transform: uppercase;
+      font-weight: 700;
+
+      cursor: pointer;
+    }
+
+    input#verify:hover {
+      background-color: rgb(244, 207, 0);
+    }
+
+    .outputDiv {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    a {
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>👵 Age Verificator</h1>
+      </header>
+      <section>
+        <div class="inputDiv">
+          <div>
+            <label for="birthYear">Year of birth:</label>
+            <input type="number" id="birthYear" />
+          </div>
+
+          <div>
+            Gender:
+            <input type="radio" name="genderRadio" id="masculine" checked />
+            <label for="masculine">Masculine</label>
+            <input type="radio" name="genderRadio" id="feminine" />
+            <label for="feminine">Feminine</label>
+          </div>
+
+          <input type="submit" value="Verify" id="verify" onclick="verify()" />
+        </div>
+
+        <div class="outputDiv"></div>
+      </section>
+      <footer>
+        Developed with 💙 by
+        <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank"
+          >Elias Neto</a
+        >
+        👋
+      </footer>
+    </div>
+
+    <script>
+      let now = new Date()
+      let currentYear = now.getFullYear()
+
+      function verify() {
+        let birthYear = Number(document.getElementById('birthYear').value)
+
+        if (birthYear == 0 || birthYear > currentYear) {
+          window.alert("[ERROR] Verify the data's and try again!")
+        } else {
+          let genderRadio = document.getElementsByName('genderRadio')
+          let gender = ''
+          let age = currentYear - birthYear
+          let image = document.createElement('img')
+          let outputDiv = document.querySelector('.outputDiv')
+
+          if (genderRadio[0].checked) {
+            gender = 'Man'
+            if (age >= 0 && age <= 10) {
+              image.setAttribute('src', './imgs/foto-bebe-m.png')
+            } else if (age <= 21) {
+              image.setAttribute('src', './imgs/foto-jovem-m.png')
+            } else if (age < 60) {
+              image.setAttribute('src', './imgs/foto-adulto-m.png')
+            } else {
+              image.setAttribute('src', './imgs/foto-idoso-m.png')
+            }
+          } else {
+            gender = 'Woman'
+            if (age >= 0 && age <= 10) {
+              image.setAttribute('src', './imgs/foto-bebe-f.png')
+            } else if (age <= 21) {
+              image.setAttribute('src', './imgs/foto-jovem-f.png')
+            } else if (age < 60) {
+              image.setAttribute('src', './imgs/foto-adulto-f.png')
+            } else {
+              image.setAttribute('src', './imgs/foto-idoso-f.png')
+            }
+          }
+
+          outputDiv.innerHTML = `<p><strong>${gender} of ${age} years</strong></p>`
+          outputDiv.appendChild(image)
+        }
+      }
+    </script>
+  </body>
+</html>
