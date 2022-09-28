@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(36, 36, 36);
+
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+    }
+
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    section {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+
+      color: black;
+    }
+
+    input#number {
+      width: 70px;
+      padding: 5px;
+    }
+    
+    input.button {
+      background-color: gold;
+      border: 1px solid black;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input.button:hover {
+      background-color: rgb(244, 207, 0);
+    }
+
+    a {
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>❌ Tabuada</h1>
+      </header>
+      <section>
+        <div>
+          <label for="number">Tabuada de: </label>
+          <input type="number" id="number">
+        </div>
+        <div>
+          <input type="submit" value="Mostrar" class="button" onclick="mostrarTabuada()">
+        </div>
+        <div id="outputDiv">
+
+        </div>
+      </section>
+      <footer>
+        Developed with 💙 by
+        <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank"
+          >Elias Neto</a
+        >
+        👋
+      </footer>
+    </div>
+
+    <script>
+      function mostrarTabuada() {
+        let number = document.getElementById('number')
+        let outputDiv = document.getElementById('outputDiv')
+
+        if (number.value.length == 0) {
+          alert('[ERRO] Digite um número!')
+        } else {
+          outputDiv.innerHTML = ''
+          number = Number(number.value)
+          for (let i = 0; i <= 10; i++) {
+            outputDiv.innerHTML += `<p><strong>${number} x ${i} = ${number*i}</strong></p> <br>`
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

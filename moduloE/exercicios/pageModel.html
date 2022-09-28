@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Model</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(36, 36, 36);
+
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+    }
+
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    section {
+      background-color: white;
+      padding: 100px;
+      border-radius: 10px;
+
+      color: black;
+    }
+
+    #pistaDeCorrida {
+      margin-top: 30px;
+    }
+
+    a {
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Título</h1>
+      </header>
+      <section>
+        <input type="submit" value="Iniciar" onclick="iniciar()">
+        <div id="pistaDeCorrida">
+          
+        </div>
+      </section>
+      <footer>Developed with 💙 by <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank">Elias Neto</a> 👋</footer>
+    </div>
+
+    <script>
+      function iniciar() {
+        let pistaDeCorrida = document.getElementById('pistaDeCorrida')
+        let randonNumber = Math.floor(Math.random() * 10 + 1)
+        console.log(randonNumber)
+        console.log(randonNumber)
+        let i = 0
+        pistaDeCorrida.innerHTML = ''
+
+        let myInterval = setInterval(function (){
+          i++
+          pistaDeCorrida.innerHTML += `🐌(${i}) `
+          if (i >= randonNumber) {
+            clearInterval(myInterval)
+          }
+        }, 1000)
+        
+
+        
+      }
+    </script>
+  </body>
+</html>
