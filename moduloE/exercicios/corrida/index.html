@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corrida</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>🏆 Corrida</h1>
+      </header>
+
+      <section>
+        <div class="inputDiv">
+          <label for="guess">Quem vai mais longe?</label>
+          <select name="guess" id="guess">
+            <option value="penguin">Pinguin</option>
+            <option value="snake">Cobra</option>
+            <option value="elephant">Elefante</option>
+          </select>
+        </div>
+
+        <div>
+          <input
+            type="submit"
+            value="Iniciar corrida"
+            id="button"
+            onclick="startTrackRunning()"
+          />
+        </div>
+
+        <div id="trackRunnings">
+          <div class="trackRunningDiv">
+            <span>🏁</span><span id="penguinTrackRunning">🐧</span>
+          </div>
+          <div class="trackRunningDiv">
+            <span>🏁</span><span id="snakeTrackRunning">🐍</span>
+          </div>
+          <div class="trackRunningDiv">
+            <span>🏁</span><span id="elephantTrackRunning">🐘</span>
+          </div>
+        </div>
+
+        <div id="guessResult"></div>
+      </section>
+
+      <footer>
+        Developed with 💙 by
+        <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank"
+          >Elias Neto</a
+        >
+        👋
+      </footer>
+
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
