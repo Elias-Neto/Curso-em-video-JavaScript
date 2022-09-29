@@ -52,33 +52,67 @@
         <h1>Título</h1>
       </header>
       <section>
-        <input type="submit" value="Iniciar" onclick="iniciar()">
-        <div id="pistaDeCorrida">
-          
-        </div>
+        <input type="submit" value="Iniciar" onclick="iniciar()" />
+        <div id="pistaDeCorrida1"></div>
+        <div id="pistaDeCorrida2"></div>
+        <div id="pistaDeCorrida3"></div>
       </section>
-      <footer>Developed with 💙 by <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank">Elias Neto</a> 👋</footer>
+      <footer>
+        Developed with 💙 by
+        <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank"
+          >Elias Neto</a
+        >
+        👋
+      </footer>
     </div>
 
     <script>
       function iniciar() {
-        let pistaDeCorrida = document.getElementById('pistaDeCorrida')
-        let randonNumber = Math.floor(Math.random() * 10 + 1)
-        console.log(randonNumber)
-        console.log(randonNumber)
-        let i = 0
-        pistaDeCorrida.innerHTML = ''
+        let pistaDeCorrida1 = document.getElementById('pistaDeCorrida1')
+        let pistaDeCorrida2 = document.getElementById('pistaDeCorrida2')
+        let pistaDeCorrida3 = document.getElementById('pistaDeCorrida3')
 
-        let myInterval = setInterval(function (){
-          i++
-          pistaDeCorrida.innerHTML += `🐌(${i}) `
-          if (i >= randonNumber) {
-            clearInterval(myInterval)
+        let randonNumber1 = Math.floor(Math.random() * 10 + 1)
+        console.log(randonNumber1)
+        let randonNumber2 = Math.floor(Math.random() * 10 + 1)
+        console.log(randonNumber2)
+        let randonNumber3 = Math.floor(Math.random() * 10 + 1)
+        console.log(randonNumber3)
+
+        let i1 = 0
+        let i2 = 0
+        let i3 = 0
+
+        pistaDeCorrida1.innerHTML = ''
+        pistaDeCorrida2.innerHTML = ''
+        pistaDeCorrida3.innerHTML = ''
+
+        let myInterval1 = setInterval(function () {
+          if (i1 >= randonNumber1) {
+            clearInterval(myInterval1)
+          } else {
+            i1++
+            pistaDeCorrida1.innerHTML += `🐌(${i1}) `
           }
         }, 1000)
-        
 
-        
+        let myInterval2 = setInterval(function () {
+          if (i2 >= randonNumber2) {
+            clearInterval(myInterval2)
+          } else {
+            i2++
+            pistaDeCorrida2.innerHTML += `🐢(${i2}) `
+          }
+        }, 1000)
+
+        let myInterval3 = setInterval(function () {
+          if (i3 >= randonNumber3) {
+            clearInterval(myInterval3)
+          } else {
+            i3++
+            pistaDeCorrida3.innerHTML += `🐒(${i3}) `
+          }
+        }, 1000)
       }
     </script>
   </body>

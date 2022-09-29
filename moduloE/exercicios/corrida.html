@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corrida</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(36, 36, 36);
+
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+    }
+
+    .wrapper {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    section {
+      background-color: white;
+      width: 500px;
+      padding: 50px;
+      border-radius: 10px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      color: black;
+    }
+
+    .inputDiv {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    #guess {
+      padding: 3px;
+    }
+
+    #button {
+      background-color: gold;
+      border: 1px solid black;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      text-transform: capitalize;
+    }
+
+    #button:hover {
+      background-color: rgb(240, 204, 0);
+    }
+
+    .trackRunningDiv {
+      width: 450px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      color: white;
+    }
+  </style>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>🏆 Corrida</h1>
+      </header>
+
+      <section>
+        <div class="inputDiv">
+          <label for="guess">Quem vai vencer?</label>
+          <select name="guess" id="guess">
+            <option value="monkey">Macaco</option>
+            <option value="turtle">Tartaruga</option>
+            <option value="kangaroo">Canguru</option>
+          </select>
+        </div>
+
+        <div>
+          <input type="submit" value="Finalizar palpite" id="button" onclick="startTrackRunning()">
+        </div>
+
+        <div>
+          <div class="trackRunningDiv">
+            <span>🏁</span><span id="monkeyTrackRunnin">🐒</span>
+          </div>
+          <div class="trackRunningDiv">
+            <span>🏁</span><span id="turtleTrackRunning">🐢</span>
+          </div>
+          <div class="trackRunningDiv">
+            <span>🏁</span><span id="kangarooTrackRunning">🦘</span>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        Developed with 💙 by
+        <a href="https://www.linkedin.com/in/elias-neto321/" target="_blank"
+          >Elias Neto</a
+        >
+        👋
+      </footer>
+    </div>
+
+    <script>
+      function startTrackRunning() {
+        let select = document.getElementById('guess')
+        let optionSelected = select.options[select.selectedIndex].value;
+
+
+      }
+    </script>
+  </body>
+</html>
