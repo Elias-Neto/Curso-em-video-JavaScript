@@ -68,6 +68,13 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
   </ul>
 </details>
 
+<details>
+  <summary>✅ [Módulo F] Array's e Functions</summary>
+  <ul>
+    <li><a href="./moduloF">Exercícios 🏋️</a></li>
+  </ul>
+</details>
+
 <br><br>
 
 <p align="center"> Desenvolvido com 💙 por Elias de Araújo Ferreira Neto 👋 <p>
