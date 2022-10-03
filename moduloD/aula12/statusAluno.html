@@ -3,89 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Model</title>
+    <title>Status do Aluno</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: rgb(36, 36, 36);
+
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+
+      .wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      section {
+        background-color: white;
+        width: 350px;
+        height: 300px;
+        border-radius: 10px;
+
+        color: black;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+
+      section div.notas {
+        display: flex;
+        gap: 50px;
+      }
+
+      section div.notas div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+
+        text-align: center;
+      }
+
+      input#n1,
+      input#n2 {
+        padding: 5px;
+        width: 80px;
+      }
+
+      input#button {
+        padding: 5px;
+        background-color: crimson;
+        color: white;
+        cursor: pointer;
+        border: 1px solid black;
+        border-radius: 3px;
+      }
+
+      input#button:hover {
+        background-color: rgb(206, 20, 57);
+      }
+
+      div#messageOutput {
+        text-align: center;
+      }
+
+      a {
+        color: white;
+      }
+    </style>
   </head>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: rgb(36, 36, 36);
-
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 18px;
-    }
-
-    .wrapper {
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 30px;
-    }
-
-    section {
-      background-color: white;
-      width: 350px;
-      height: 300px;
-      border-radius: 10px;
-
-      color: black;
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-    }
-
-    section div.notas {
-      display: flex;
-      gap: 50px;
-    }
-
-    section div.notas div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 5px;
-
-      text-align: center;
-    }
-
-    input#n1,
-    input#n2 {
-      padding: 5px;
-      width: 80px;
-    }
-
-    input#button {
-      padding: 5px;
-      background-color: crimson;
-      color: white;
-      cursor: pointer;
-      border: 1px solid black;
-      border-radius: 3px;
-    }
-
-    input#button:hover {
-      background-color: rgb(206, 20, 57);
-    }
-
-    div#messageOutput {
-      text-align: center;
-    }
-
-    a {
-      color: white;
-    }
-  </style>
   <body>
     <div class="wrapper">
       <header>

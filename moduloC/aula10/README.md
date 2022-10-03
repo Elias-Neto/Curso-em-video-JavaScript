@@ -12,10 +12,10 @@
 
 ## 💻 Projeto
 
-Nesse programa o intuito é treinar os Eventos DOM. Ao colocar o cursor do mouse dentro do círculo, dispara-se um evento, 
+Nesse programa, o intuito é treinar os Eventos DOM. Ao colocar o cursor do mouse dentro do círculo, dispara-se um evento, 
 ao tira-lo de dentro, dispara-se outro evento, ao clicar no círculo, dispara-se mais um evento.
 
-No círculo da esquerda eu coloquei os disparos de evento no próprio html. Já no da direita, eu adicionei event listener's para dispararem os eventos.
+No círculo da esquerda, eu coloquei os disparos de evento no próprio html. Já no da direita, eu adicionei event listener's.
 
 <br>
 
@@ -23,7 +23,11 @@ No círculo da esquerda eu coloquei os disparos de evento no próprio html. Já 
 
 - Entendendo o DOM e a Árvore DOM;
 - Selecionar elementos da Árvore DOM;
-- Manipulação de elementos utilizando o DOM.
+- Manipulação de elementos utilizando o DOM;
+- Eventos DOM;
+- Disparos de eventos DOM direto no HTML;
+- Disparos de eventos DOM por meio de `event listener's`;
+- Trabalhar com Functions;
 
 <br>
 

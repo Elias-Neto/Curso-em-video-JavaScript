@@ -5,15 +5,14 @@
 </div>
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloC/aula11/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloD/aula11/index.html">Veja o Site</a>
 </div>
 
 <br>
 
 ## 💻 Projeto
 
-Esse é um aplicativo que ler a velocidade de um carro e verifica: se ultrapasou a velocidade limite, informa ao usuário que
-ele foi multado, calcula e mostra o valor da multa; se não, informa ao usuário que ele não foi multado.
+Esse é um aplicativo que ler a velocidade de um carro, informa ao usuário se ele foi multado ou não, em caso positivo, calcula e mostra o valor da multa.
 
 <br>
 

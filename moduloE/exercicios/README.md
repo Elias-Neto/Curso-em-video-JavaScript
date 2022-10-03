@@ -55,7 +55,7 @@
 
 ## 💻 Projeto
 
-Esse programa ler o início, o fim e o passo de uma contagem. Por fim, ele faz a contagem (progressiva ou regressiva). Além disso, ele alerta se houver erro de
+Esse programa ler o início, o fim e o passo de uma contagem. Com esses dados, ele faz a contagem (progressiva ou regressiva). Além disso, ele alerta se houver erro de
 falta de dados ou erro de colocar um passo menor ou igual a 0.
 
 <br>

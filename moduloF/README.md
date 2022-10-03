@@ -12,9 +12,9 @@
 
 ## 💻 Projeto
 
-- Essa aplicação permite o usuário adicionar quantos números ele quiser a uma lista que será analisada ao final.
+- Essa aplicação permite o usuário adicionar quantos números ele quiser a uma lista que será analisada ao clicar em "Finalizar".
 - Quando um número é adicionado ele aparece na lista.
-- Caso o número não esteja dentro do intervalo desejado ou se o usuário deixe o campo em branco e clique em adiconar, será alertado
+- Caso o número não esteja dentro do intervalo desejado ou se o usuário deixar o campo em branco e clique em adiconar, será alertado
 um erro.
 - Ao clicar em finalizar, o sistema irá informar:
   - Quantos números foram adicionados;

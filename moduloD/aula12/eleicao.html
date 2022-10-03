@@ -3,118 +3,118 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Model</title>
+    <title>Eleição</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #242424;
+
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+      }
+
+      .wrapper {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+      }
+
+      section#votingSection {
+        background-color: white;
+        width: 350px;
+        height: 400px;
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+
+        color: black;
+      }
+
+      input.button {
+        width: 50px;
+        height: 50px;
+        background-color: crimson;
+        padding: 5px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+
+        color: white;
+        font-size: 24px;
+        transition: transform 0.3s;
+      }
+
+      input.button:hover {
+        transform: scale(1.1);
+      }
+
+      #messageOutput {
+        text-align: center;
+      }
+
+      #messageOutput #candidateName {
+        font-weight: bold;
+      }
+
+      #messageOutput #candidateEmoji {
+        font-size: 100px;
+      }
+
+      #confirmButton {
+        background-color: gold;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+
+        font-size: 18px;
+      }
+
+      #confirmButton:hover {
+        background-color: #eeca00;
+      }
+
+      #confirmationAlert {
+        position: absolute;
+        top: 50px;
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 10px;
+        display: none;
+
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      @keyframes fromTopToBottom {
+        from {
+          opacity: 0;
+          transform: translateY(-30px);
+        }
+        To {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      a {
+        color: white;
+      }
+    </style>
   </head>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: #242424;
-
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 18px;
-    }
-
-    .wrapper {
-      width: 100vw;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 30px;
-    }
-
-    section#votingSection {
-      background-color: white;
-      width: 350px;
-      height: 400px;
-      border-radius: 10px;
-
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 50px;
-
-      color: black;
-    }
-
-    input.button {
-      width: 50px;
-      height: 50px;
-      background-color: crimson;
-      padding: 5px;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-
-      color: white;
-      font-size: 24px;
-      transition: transform 0.3s;
-    }
-
-    input.button:hover {
-      transform: scale(1.1);
-    }
-
-    #messageOutput {
-      text-align: center;
-    }
-
-    #messageOutput #candidateName {
-      font-weight: bold;
-    }
-
-    #messageOutput #candidateEmoji {
-      font-size: 100px;
-    }
-
-    #confirmButton {
-      background-color: gold;
-      padding: 5px;
-      cursor: pointer;
-      border-radius: 5px;
-
-      font-size: 18px;
-    }
-
-    #confirmButton:hover {
-      background-color: #eeca00;
-    }
-
-    #confirmationAlert {
-      position: absolute;
-      top: 50px;
-      padding: 20px;
-      border: 3px solid black;
-      border-radius: 10px;
-      display: none;
-
-      font-size: 18px;
-      font-weight: bold;
-    }
-
-    @keyframes fromTopToBottom {
-      from {
-        opacity: 0;
-        transform: translateY(-30px);
-      }
-      To {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    a {
-      color: white;
-    }
-  </style>
   <body>
     <div class="wrapper">
       <header>
