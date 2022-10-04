@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloD/exercicios/exercicio1.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/modulos/moduloD/exercicios/exercicio1.html">Veja o Site</a>
 </div>
 
 <br>

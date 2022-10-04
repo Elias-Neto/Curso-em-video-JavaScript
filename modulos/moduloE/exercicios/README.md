@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloE/exercicios/corrida/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/modulos/moduloE/exercicios/corrida/index.html">Veja o Site</a>
 </div>
 
 <br>
@@ -48,7 +48,7 @@
 </div>
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloE/exercicios/exercicio1.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/modulos/moduloE/exercicios/exercicio1.html">Veja o Site</a>
 </div>
 
 <br>
