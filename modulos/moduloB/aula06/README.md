@@ -3,7 +3,7 @@
 ![Vídeo demonstrativo de exercícios práticos](./demonstracao.gif)
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloB/aula06/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/modulos/moduloB/aula06/index.html">Veja o Site</a>
 </div>
 
 <br>

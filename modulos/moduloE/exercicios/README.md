@@ -79,7 +79,7 @@ falta de dados ou erro de colocar um passo menor ou igual a 0.
 </div>
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloE/exercicios/exercicio2.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/modulos/moduloE/exercicios/exercicio2.html">Veja o Site</a>
 </div>
 
 <br>

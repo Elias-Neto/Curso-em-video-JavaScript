@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/moduloF/analisador_de_numeros/index.html">Veja o Site</a>
+  <a href="https://elias-neto.github.io/Curso-em-video-JavaScript/modulos/moduloF/analisador_de_numeros/index.html">Veja o Site</a>
 </div>
 
 <br>
