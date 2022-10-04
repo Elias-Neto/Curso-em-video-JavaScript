@@ -35,7 +35,7 @@ de JavaScript do professor **Gustavo Guanabara** (curso em vídeo) 🖖.
 </details>
 
 <details>
-  <summary>✅ [Módulo B] Comandos Entendendo o DOM</summary>
+  <summary>✅ [Módulo B] Comandos Básicos do JavaScript</summary>
   <ul>
     <li><a href="./modulos/moduloB/aula05">Aula 5 - Variáveis e Tipos Primitivos</a></li>
     <li><a href="./modulos/moduloB/aula06">Aula 6 - Tratamento de dados</a></li>
