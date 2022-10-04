@@ -70,4 +70,4 @@ A aplicação informa a confirmação do voto e, caso o usuário confirme o voto
 
 <br>
   
-<a href="../../README.md">Voltar</a>
+<a href="../../../README.md">Voltar</a>

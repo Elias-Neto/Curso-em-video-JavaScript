@@ -36,4 +36,4 @@ Programinhas para praticar operações relacionais, lógicas e ternária.
 
 <br>
   
-<a href="../../README.md">Voltar</a>
+<a href="../../../README.md">Voltar</a>
